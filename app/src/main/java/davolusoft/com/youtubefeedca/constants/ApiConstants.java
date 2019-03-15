@@ -1,7 +1,7 @@
 package davolusoft.com.youtubefeedca.constants;
 
 /**
- * Created by David Oluyale on 3/6/2019.
+ * Created by user on 3/6/2019.
  */
 
 public class ApiConstants {

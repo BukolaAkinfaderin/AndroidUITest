@@ -1,7 +1,7 @@
 package davolusoft.com.youtubefeedca.model;
 
 /**
- * Created by David Oluyale on 3/6/2019.
+ * Created by user on 3/6/2019.
  * POJO
  */
 

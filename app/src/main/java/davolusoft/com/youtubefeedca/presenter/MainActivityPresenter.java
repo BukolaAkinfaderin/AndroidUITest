@@ -12,7 +12,7 @@ import davolusoft.com.youtubefeedca.network.VolleyRequests;
 import davolusoft.com.youtubefeedca.model.MainActivityModel;
 
 /**
- * Created by David Oluyale on 3/6/2019.
+ * Created by user on 3/6/2019.
  */
 
 public class MainActivityPresenter implements MainActivityContract.Presenter {

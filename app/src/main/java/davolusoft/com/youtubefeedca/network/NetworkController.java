@@ -8,7 +8,7 @@ import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 
 /**
- * Created by David Oluyale on 3/6/2019.
+ * Created by user on 3/6/2019.
  */
 
 public class NetworkController extends Application {
