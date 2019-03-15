@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements View {
 
         mPresenter = new MainActivityPresenter(this);
 
+        //this method is getting the data
         mPresenter.loadHomeFeed(MainActivity.this);
 
    }
@@ -52,13 +53,14 @@ public class MainActivity extends AppCompatActivity implements View {
     }
 
     @Override
-    public void getViewData(String data) {
+    public void setViewData(String data) {
 
         //this method is returning a list of videos from the network
 
         UsersVideos usersVideos = new Gson().fromJson(data, UsersVideos.class);
 
         List<YoutubeVideos> videos = usersVideos.getVideos();
+
 
 
 

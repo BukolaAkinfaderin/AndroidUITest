@@ -14,7 +14,7 @@ public interface MainActivityContract {
 
         void initView();
 
-        void getViewData(String data);
+        void setViewData(String data);
     }
 
     interface Model {

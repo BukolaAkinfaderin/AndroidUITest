@@ -37,7 +37,7 @@ public class MainActivityPresenter implements MainActivityContract.Presenter {
         new VolleyRequests().fetchHomeFeeds(new DataCallback() {
             @Override
             public void onSuccess(JSONObject result) {
-                mView.getViewData(result.toString());
+                mView.setViewData(result.toString());
 
             }
         });
